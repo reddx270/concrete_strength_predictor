@@ -1,0 +1,156 @@
+{
+  "features": [
+    "Cement",
+    "GGBS",
+    "FlyAsh",
+    "Water",
+    "SP",
+    "CoarseAgg",
+    "FineAgg",
+    "Age",
+    "Binder",
+    "WC_Ratio",
+    "WCM_Ratio",
+    "SCM_Pct",
+    "AggRatio",
+    "SP_per_Binder"
+  ],
+  "raw_features": [
+    "Cement",
+    "GGBS",
+    "FlyAsh",
+    "Water",
+    "SP",
+    "CoarseAgg",
+    "FineAgg",
+    "Age"
+  ],
+  "metrics": {
+    "mae": 2.30233429569554,
+    "rmse": 3.5810266378098756,
+    "r2": 0.9606995449015017,
+    "cv_r2_mean": 0.9609675818352619,
+    "cv_r2_std": 0.00570756876556412,
+    "pi_coverage_80": 0.5212121212121212,
+    "pi_avg_width": 6.6176300048828125
+  },
+  "feature_importance": [
+    {
+      "feature": "WCM_Ratio",
+      "importance": 0.4188314378261566
+    },
+    {
+      "feature": "AggRatio",
+      "importance": 0.15468750894069672
+    },
+    {
+      "feature": "Age",
+      "importance": 0.15288668870925903
+    },
+    {
+      "feature": "WC_Ratio",
+      "importance": 0.07149605453014374
+    },
+    {
+      "feature": "Binder",
+      "importance": 0.03884722292423248
+    },
+    {
+      "feature": "FineAgg",
+      "importance": 0.03297100588679314
+    },
+    {
+      "feature": "SCM_Pct",
+      "importance": 0.027211010456085205
+    },
+    {
+      "feature": "FlyAsh",
+      "importance": 0.022855225950479507
+    },
+    {
+      "feature": "Cement",
+      "importance": 0.01909606344997883
+    },
+    {
+      "feature": "Water",
+      "importance": 0.01662975363433361
+    },
+    {
+      "feature": "GGBS",
+      "importance": 0.0148246418684721
+    },
+    {
+      "feature": "SP",
+      "importance": 0.0131526542827487
+    },
+    {
+      "feature": "CoarseAgg",
+      "importance": 0.010038988664746284
+    },
+    {
+      "feature": "SP_per_Binder",
+      "importance": 0.006471713539212942
+    }
+  ],
+  "n_total": 1647,
+  "n_train": 1317,
+  "n_test": 330,
+  "feature_ranges": {
+    "Cement": {
+      "min": 102.0,
+      "p05": 150.21,
+      "median": 281.0,
+      "p95": 484.3099999999996,
+      "max": 630.3
+    },
+    "GGBS": {
+      "min": 0.0,
+      "p05": 0.0,
+      "median": 0.0,
+      "p95": 235.6699999999998,
+      "max": 359.4
+    },
+    "FlyAsh": {
+      "min": 0.0,
+      "p05": 0.0,
+      "median": 0.0,
+      "p95": 150.27999999999994,
+      "max": 200.1
+    },
+    "Water": {
+      "min": 121.75,
+      "p05": 145.5,
+      "median": 176.46,
+      "p95": 213.0,
+      "max": 247.0
+    },
+    "SP": {
+      "min": 0.0,
+      "p05": 0.0,
+      "median": 4.567,
+      "p95": 13.767999999999901,
+      "max": 32.2
+    },
+    "CoarseAgg": {
+      "min": 801.0,
+      "p05": 852.1,
+      "median": 1025.0,
+      "p95": 1230.7099999999998,
+      "max": 1291.5
+    },
+    "FineAgg": {
+      "min": 447.3,
+      "p05": 594.0,
+      "median": 755.6,
+      "p95": 887.1,
+      "max": 992.6
+    },
+    "Age": {
+      "min": 1.0,
+      "p05": 3.0,
+      "median": 28.0,
+      "p95": 100.0,
+      "max": 365.0
+    }
+  }
+}
